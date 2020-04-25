@@ -5,13 +5,13 @@
     [
         {"item": "ymorefood:yeast"},
         {"item": "ymorefood:flour"},
-        {"item": "yminecraft:sugar"}
+        {"item": "minecraft:sugar"}
     ],
     
     
     "result":
     {
-        "item": "morefood:dough",
+        "item": "ymorefood:dough",
         "count": 3
     }
 }
