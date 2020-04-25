@@ -19,9 +19,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("ymorefood")
 public class YumMoreFood
-{
-    private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "ymorefood";
+{   public static final String MOD_ID = "ymorefood";
     public static YumMoreFood instance;
 
     public YumMoreFood() {
