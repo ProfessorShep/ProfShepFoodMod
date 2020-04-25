@@ -1,0 +1,9 @@
+{
+	"item.ymorefood.tomato" : "Tomato",
+	"item.ymorefood.yeast" : "Yeast",
+	"item.ymorefood.dough" : "Dough",
+	"item.ymorefood.flour" : "Flour",
+	"item.ymorefood.chocolate" : "Chocolate",
+	"block.ymorefood.unknown_block" : "Unknown Block",
+	"itemGroup.ymoretab" : "Yum! More Food!"
+}

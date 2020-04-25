@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "ymorefood:yeast"},
+        {"item": "ymorefood:flour"},
+        {"item": "yminecraft:sugar"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "morefood:dough",
+        "count": 3
+    }
+}

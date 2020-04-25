@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "ymorefood:flour"
+        }
+    },
+    
+    "result":
+    {
+        "item": "minecraft:bread",
+        "count": 1
+    }
+}

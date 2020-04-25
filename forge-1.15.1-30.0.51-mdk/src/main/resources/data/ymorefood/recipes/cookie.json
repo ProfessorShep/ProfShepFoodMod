@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "ymorefood:chocolate"},
+        {"item": "ymorefood:dough"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "minecraft:cookie",
+        "count": 5
+    }
+}
