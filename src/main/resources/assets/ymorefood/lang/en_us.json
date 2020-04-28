@@ -4,6 +4,8 @@
 	"item.ymorefood.dough" : "Dough",
 	"item.ymorefood.flour" : "Flour",
 	"item.ymorefood.chocolate" : "Chocolate",
+	"item.ymorefood.tomato_seeds" : "Tomato Seeds",
 	"block.ymorefood.unknown_block" : "Unknown Block",
+	"block.ymorefood.tomato_plant" : "Tomato Seeds",
 	"itemGroup.ymoretab" : "Yum! More Food!"
 }

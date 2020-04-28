@@ -1,5 +1,17 @@
 package com.shearshep22.morefood;
 
+import com.shearshep22.morefood.init.BlockInitNew;
+import com.shearshep22.morefood.init.ItemInitNew;
+import com.shearshep22.morefood.objects.blocks.TomatoPlant;
+import net.minecraft.block.ComposterBlock;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,32 +27,47 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("ymorefood")
+@Mod.EventBusSubscriber(modid = YumMoreFood.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class YumMoreFood
-{   public static final String MOD_ID = "ymorefood";
+{
+    public static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "ymorefood";
     public static YumMoreFood instance;
 
     public YumMoreFood() {
     	final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        modEventBus.addListener(this::setup);
-        modEventBus.addListener(this::doClientStuff);
+        ItemInitNew.ITEMS.register(modEventBus);
+        BlockInitNew.BLOCKS.register(modEventBus);
         instance=this;
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+    @SubscribeEvent
+    public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
+        final IForgeRegistry<Item> registry = event.getRegistry();
+
+        BlockInitNew.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof TomatoPlant))
+                .map(RegistryObject::get).forEach(block -> {
+            final Item.Properties properties = new Item.Properties().group(YMoreFoodTab.instance);
+            final BlockItem blockItem = new BlockItem(block, properties);
+            blockItem.setRegistryName(block.getRegistryName());
+            registry.register(blockItem);
+        });
+
+        LOGGER.debug("Registered BlockItems!");
+    }
+
     private void setup(final FMLCommonSetupEvent event)
     {
-    	
+
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-    	
     }
     @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {
-    	
     }
     public static class YMoreFoodTab extends ItemGroup{
     	public static final YMoreFoodTab instance = new YMoreFoodTab(ItemGroup.GROUPS.length, "ymoretab");
