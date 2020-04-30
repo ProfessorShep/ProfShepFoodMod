@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "ymorefood:raw_chicken_nugget"
+  },
+  "result": "ymorefood:cooked_chicken_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

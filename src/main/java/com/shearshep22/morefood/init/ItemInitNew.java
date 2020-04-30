@@ -18,5 +18,7 @@ public class ItemInitNew {
 			YumMoreFood.MOD_ID);
 	public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
 			() -> new BlockItem(BlockInitNew.TOMATO_PLANT.get(), new Item.Properties().group(YMoreFoodTab.instance)));
+	public static final RegistryObject<Item> ONION = ITEMS.register("onion",
+			() -> new BlockItem(BlockInitNew.ONION_PLANT.get(), new Item.Properties().group(YMoreFoodTab.instance).food(new Food.Builder().hunger(1).saturation(1f).build())));
 
 }

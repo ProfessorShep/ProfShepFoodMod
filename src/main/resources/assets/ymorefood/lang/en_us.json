@@ -5,7 +5,11 @@
 	"item.ymorefood.flour" : "Flour",
 	"item.ymorefood.chocolate" : "Chocolate",
 	"item.ymorefood.tomato_seeds" : "Tomato Seeds",
+	"item.ymorefood.raw_chicken_nugget" : "Raw Chicken Nugget",
+	"item.ymorefood.cooked_chicken_nugget" : "Cooked Chicken Nugget",
+	"item.ymorefood.onion": "Onion",
 	"block.ymorefood.unknown_block" : "Unknown Block",
 	"block.ymorefood.tomato_plant" : "Tomato Seeds",
+	"block.ymorefood.onion_plant" : "Onion",
 	"itemGroup.ymoretab" : "Yum! More Food!"
 }

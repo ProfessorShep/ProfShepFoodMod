@@ -5,6 +5,8 @@ import com.shearshep22.morefood.YumMoreFood.YMoreFoodTab;
 
 import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +24,9 @@ public class ItemInit {
 	public static final Item yeast = null;
 	public static final Item chocolate = null;
 	public static final Item dough = null;
+	public static final Item raw_chicken_nugget = null;
+	public static final Item cooked_chicken_nugget = null;
+	public static final Item onion = null;
 	@SubscribeEvent
 	public static void registerItems(final RegistryEvent.Register<Item> event) {
 		event.getRegistry().register(new Item(new Item.Properties().group(YMoreFoodTab.instance)).setRegistryName("flour"));
@@ -29,5 +34,7 @@ public class ItemInit {
 		event.getRegistry().register(new Item(new Item.Properties().group(YMoreFoodTab.instance)).setRegistryName("yeast"));
 		event.getRegistry().register(new Item(new Item.Properties().group(YMoreFoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())).setRegistryName("chocolate"));
 		event.getRegistry().register(new Item(new Item.Properties().group(YMoreFoodTab.instance)).setRegistryName("dough"));
+		event.getRegistry().register(new Item(new Item.Properties().group(YMoreFoodTab.instance).food(new Food.Builder().hunger(1).fastToEat().saturation(2f).build())).setRegistryName("cooked_chicken_nugget"));
+		event.getRegistry().register(new Item(new Item.Properties().group(YMoreFoodTab.instance).food(new Food.Builder().hunger(1).saturation(2f).fastToEat().effect(new EffectInstance(Effects.HUNGER, 600), 0.3f).build())).setRegistryName("raw_chicken_nugget"));
 	}
 }

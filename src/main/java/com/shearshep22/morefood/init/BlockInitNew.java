@@ -1,6 +1,7 @@
 package com.shearshep22.morefood.init;
 
 import com.shearshep22.morefood.YumMoreFood;
+import com.shearshep22.morefood.objects.blocks.OnionPlant;
 import com.shearshep22.morefood.objects.blocks.TomatoPlant;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -22,4 +23,6 @@ public class BlockInitNew {
 			YumMoreFood.MOD_ID);
 	public static final RegistryObject<Block> TOMATO_PLANT = BLOCKS.register("tomato_plant",
 			() -> new TomatoPlant(Block.Properties.from(Blocks.WHEAT)));
+	public static final RegistryObject<Block> ONION_PLANT = BLOCKS.register("onion_plant",
+			() -> new OnionPlant(Block.Properties.from(Blocks.WHEAT)));
 }
