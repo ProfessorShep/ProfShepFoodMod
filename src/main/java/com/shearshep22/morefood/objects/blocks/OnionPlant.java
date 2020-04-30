@@ -16,10 +16,13 @@ public class OnionPlant extends CropsBlock {
     public OnionPlant(Properties builder) {
         super(builder);
     }
-
+    @Override
+    public int getMaxAge() {
+        return 4;
+    }
     @Override
     protected IItemProvider getSeedsItem() {
-        return ItemInitNew.TOMATO_SEEDS.get();
+        return ItemInitNew.ONION.get();
     }
 
     @Override

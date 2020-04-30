@@ -2,14 +2,11 @@ package com.shearshep22.morefood;
 
 import com.shearshep22.morefood.init.BlockInitNew;
 import com.shearshep22.morefood.init.ItemInitNew;
-import com.shearshep22.morefood.objects.blocks.OnionPlant;
 import com.shearshep22.morefood.objects.blocks.TomatoPlant;
+import com.shearshep22.morefood.objects.blocks.OnionPlant;
 import net.minecraft.block.ComposterBlock;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -50,7 +47,7 @@ public class YumMoreFood
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         final IForgeRegistry<Item> registry = event.getRegistry();
 
-        BlockInitNew.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof TomatoPlant)).filter(block -> !(block.get() instanceof OnionPlant))
+        BlockInitNew.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof OnionPlant)).filter(block -> !(block.get() instanceof TomatoPlant))
                 .map(RegistryObject::get).forEach(block -> {
             final Item.Properties properties = new Item.Properties().group(YMoreFoodTab.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
