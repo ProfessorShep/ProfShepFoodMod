@@ -1,6 +1,6 @@
 package com.shearshep22.morefood.objects.blocks;
 
-import com.shearshep22.morefood.init.ItemInitNew;
+import com.shearshep22.morefood.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropsBlock;
@@ -19,7 +19,7 @@ public class TomatoPlant extends CropsBlock {
 
     @Override
     protected IItemProvider getSeedsItem() {
-        return ItemInitNew.TOMATO_SEEDS.get();
+        return ItemInit.TOMATO_SEEDS.get();
     }
 
     @Override

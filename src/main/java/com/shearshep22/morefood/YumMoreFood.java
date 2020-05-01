@@ -1,7 +1,7 @@
 package com.shearshep22.morefood;
 
-import com.shearshep22.morefood.init.BlockInitNew;
-import com.shearshep22.morefood.init.ItemInitNew;
+import com.shearshep22.morefood.init.BlockInit;
+import com.shearshep22.morefood.init.ItemInit;
 import com.shearshep22.morefood.objects.blocks.TomatoPlant;
 import com.shearshep22.morefood.objects.blocks.OnionPlant;
 import net.minecraft.block.ComposterBlock;
@@ -12,8 +12,6 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import com.shearshep22.morefood.init.ItemInit;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -37,8 +35,8 @@ public class YumMoreFood
     public YumMoreFood() {
     	final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
     	modEventBus.addListener(this::setup);
-        ItemInitNew.ITEMS.register(modEventBus);
-        BlockInitNew.BLOCKS.register(modEventBus);
+        ItemInit.ITEMS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
         instance=this;
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -47,7 +45,7 @@ public class YumMoreFood
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         final IForgeRegistry<Item> registry = event.getRegistry();
 
-        BlockInitNew.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof OnionPlant)).filter(block -> !(block.get() instanceof TomatoPlant))
+        BlockInit.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof OnionPlant)).filter(block -> !(block.get() instanceof TomatoPlant))
                 .map(RegistryObject::get).forEach(block -> {
             final Item.Properties properties = new Item.Properties().group(YMoreFoodTab.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
@@ -60,9 +58,9 @@ public class YumMoreFood
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        ComposterBlock.registerCompostable(0.6f, ItemInitNew.TOMATO_SEEDS.get());
-        ComposterBlock.registerCompostable(0.8f, ItemInit.tomato);
-        ComposterBlock.registerCompostable(0.7f, ItemInitNew.ONION.get());
+        ComposterBlock.registerCompostable(0.6f, ItemInit.TOMATO_SEEDS.get());
+        ComposterBlock.registerCompostable(0.8f, ItemInit.TOMATO.get());
+        ComposterBlock.registerCompostable(0.7f, ItemInit.ONION.get());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
@@ -77,7 +75,7 @@ public class YumMoreFood
     	}
     	@Override
     	public ItemStack createIcon() {
-    		return new ItemStack(ItemInit.tomato);
+    		return new ItemStack(ItemInit.TOMATO.get());
     	}
     }
 }
