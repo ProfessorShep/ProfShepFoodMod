@@ -1,6 +1,6 @@
 {
     "parent": "block/cross",
     "textures": {
-        "cross": "ymorefood:block/onion_plant0"
+        "cross": "ymorefood:block/onion_plant3"
     }
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "ymorefood:raw_chicken_nugget"
+    "item": "ymorefood:uncooked_cheese_pizza"
   },
-  "result": "ymorefood:cooked_chicken_nugget",
+  "result": "ymorefood:cooked_cheese_pizza",
   "experience": 0.1,
   "cookingtime": 50
 }

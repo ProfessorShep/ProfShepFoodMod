@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        "TTT",
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "ymorefood:cheese"
+        },
+        "T": {
+            "item": "ymorefood:tomato_sauce_bottle"
+        },
+        "D":
+        {
+            "item": "ymorefood:dough"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ymorefood:uncooked_cheese_pizza",
+        "count": 1
+    }
+}

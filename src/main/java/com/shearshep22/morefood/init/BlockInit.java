@@ -1,6 +1,7 @@
 package com.shearshep22.morefood.init;
 
 import com.shearshep22.morefood.YumMoreFood;
+import com.shearshep22.morefood.objects.blocks.PizzaBlock;
 import com.shearshep22.morefood.objects.blocks.TomatoPlant;
 import com.shearshep22.morefood.objects.blocks.OnionPlant;
 import net.minecraft.block.Block;
@@ -21,4 +22,6 @@ public class BlockInit {
 			() -> new OnionPlant(Block.Properties.from(Blocks.WHEAT)));
 	public static final RegistryObject<Block> UNKNOWN_BLOCK = BLOCKS.register("unknown_block",
 			() -> new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(0.7f, 15.0f).sound(SoundType.METAL)));
+	public static final RegistryObject<Block> CHEESE_PIZZA = BLOCKS.register("cheese_pizza",
+			() -> new PizzaBlock(Block.Properties.create(Material.CAKE).hardnessAndResistance(0.5F).sound(SoundType.CLOTH)));
 }
