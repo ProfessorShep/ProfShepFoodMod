@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "shepfood:onion"},
+        {"item": "shepfood:tomato"},
+        {"item": "minecraft:glass_bottle"},
+        {"item": "shepfood:tomato"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:tomato_sauce_bottle",
+        "count": 1
+    }
+}

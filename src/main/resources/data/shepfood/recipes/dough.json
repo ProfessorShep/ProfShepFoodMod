@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "shepfood:yeast"},
+        {"item": "shepfood:flour"},
+        {"item": "minecraft:potion"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:dough",
+        "count": 3
+    }
+}

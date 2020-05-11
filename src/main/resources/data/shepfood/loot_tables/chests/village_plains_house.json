@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3.0,
+        "max": 8.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shepfood:tomato_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shepfood:tomato"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shepfood:onion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shepfood:rice_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shepfood:rice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "shepfood:raw_chicken_nugget"
+  },
+  "result": "shepfood:cooked_chicken_nugget",
+  "experience": 0.1,
+  "cookingtime": 50
+}

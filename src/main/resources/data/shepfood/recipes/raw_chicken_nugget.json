@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients":
+    [
+        {"item": "minecraft:chicken"}
+    ],
+    
+    "result":
+    {
+        "item": "shepfood:raw_chicken_nugget",
+        "count": 6
+    }
+}

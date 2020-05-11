@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "DSD",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "shepfood:rice"
+        },
+        "D": {
+            "item": "minecraft:dried_kelp"
+        },
+        "S":
+        {
+            "item": "minecraft:salmon"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:sushi",
+        "count": 1
+    }
+}

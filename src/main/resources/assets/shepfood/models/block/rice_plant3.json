@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "shepfood:block/rice_plant3"
+    }
+}

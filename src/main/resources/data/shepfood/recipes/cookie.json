@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "shepfood:chocolate"},
+        {"item": "shepfood:dough"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "minecraft:cookie",
+        "count": 5
+    }
+}

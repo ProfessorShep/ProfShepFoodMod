@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "F F",
+        "F F",
+        "F F"
+    ],
+    
+    "key":
+    {
+
+        "F":
+        {
+            "item": "shepfood:flour"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:noodles",
+        "count": 1
+    }
+}

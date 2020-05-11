@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "minecraft:red_mushroom"},
+        {"item": "minecraft:brown_mushroom"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:yeast",
+        "count": 2
+    }
+}

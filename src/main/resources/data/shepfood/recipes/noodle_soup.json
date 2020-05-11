@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "N",
+        "W",
+        "B"
+    ],
+    
+    "key":
+    {
+        "N":
+        {
+            "item": "shepfood:noodles"
+        },
+        "W": {
+            "item": "minecraft:potion"
+        },
+        "B":
+        {
+            "item": "minecraft:bowl"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:uncooked_cheese_pizza",
+        "count": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "minecraft:cocoa_beans"},
+        {"item": "minecraft:cocoa_beans"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:chocolate",
+        "count": 1
+    }
+}

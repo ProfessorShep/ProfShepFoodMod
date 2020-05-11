@@ -11,13 +11,13 @@ loaderVersion="[30,)" #mandatory (28 is current forge version)
 [[mods]] #mandatory
 
 # The modid of the mod
-modId="ymorefood" #mandatory
+modId="shepfood" #mandatory
 
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 version="1.0" #mandatory
 
  # A display name for the mod
-displayName="Yum! More Food!" #mandatory
+displayName="Professor Shep's Food Mod" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="http://myurl.me/" #optional
 
@@ -28,10 +28,10 @@ displayName="Yum! More Food!" #mandatory
 #logoFile="examplemod.png" #optional
 
 # A text field displayed in the mod UI
-#credits="Thanks for this example mod goes to Java" #optional
+credits="ShearShep22, ChocolateXDude" #optional
 
 # A text field displayed in the mod UI
-authors="Shearshep22" #optional
+authors="ShearShep22" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
@@ -40,7 +40,7 @@ Eat onions at your own risk.
 '''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.ymorefood]] #optional
+[[dependencies.shepfood]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified

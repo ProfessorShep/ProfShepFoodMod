@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "TPC",
+        "BBB"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "shepfood:cheese"
+        },
+        "T": {
+            "item": "shepfood:tomato"
+        },
+        "B":
+        {
+            "item": "minecraft:bread"
+        },
+        "P":
+        {
+            "item": "minecraft:porkchop"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:sandwich",
+        "count": 3
+    }
+}
