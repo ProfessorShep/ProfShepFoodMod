@@ -18,5 +18,6 @@ public class ClientEventBusSubscriber {
     public static void clientSetup(FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(BlockInit.TOMATO_PLANT.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.ONION_PLANT.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.RICE_PLANT.get(), RenderType.getCutout());
     }
 }
