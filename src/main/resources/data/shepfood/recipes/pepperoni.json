@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "PSP"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "shepfood:porkchop"
+        },
+        "S":
+        {
+            "item": "shepfood:beef"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:pepperoni",
+        "count": 1
+    }
+}

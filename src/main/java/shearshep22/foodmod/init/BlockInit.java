@@ -27,4 +27,6 @@ public class BlockInit {
 	//		() -> new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(0.7f, 15.0f).sound(SoundType.METAL)));
 	public static final RegistryObject<Block> CHEESE_PIZZA = BLOCKS.register("cheese_pizza",
 			() -> new PizzaBlock(Block.Properties.create(Material.CAKE).hardnessAndResistance(0.5F).sound(SoundType.CLOTH)));
+	public static final RegistryObject<Block> PEPPERONI_PIZZA = BLOCKS.register("pepperoni_pizza",
+			() -> new PizzaBlock(Block.Properties.create(Material.CAKE).hardnessAndResistance(0.5F).sound(SoundType.CLOTH)));
 }

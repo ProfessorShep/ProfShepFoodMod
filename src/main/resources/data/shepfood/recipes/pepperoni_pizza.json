@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "T",
+        "C"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "shepfood:uncooked_cheese_pizza"
+        },
+        "T": {
+            "item": "shepfood:pepperoni"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:uncooked_pepperoni_pizza",
+        "count": 1
+    }
+}

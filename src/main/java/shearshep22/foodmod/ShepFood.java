@@ -52,19 +52,13 @@ public class ShepFood
             registry.register(blockItem);
         });
 
-        LOGGER.debug("Registered BlockItems!");
+        LOGGER.debug("Registered Professor Shep's Food Mod blocks and items.");
     }
-    /*@SubscribeEvent
-    public static void onLootLoad(LootTableLoadEvent e) {
-        if (e.getName().toString().equals("minecraft:chests/village/village_plains_house.json")) {
-            e.getTable().addPool(LootPool.builder().addEntry(TableLootEntry.builder(new ResourceLocation(YumMoreFood.MOD_ID, "loot_tables/chests/village_house_plains"))).build());
-        }
-        LOGGER.debug("Registered loot!");
-    }*/
 
     private void setup(final FMLCommonSetupEvent event)
     {
         ComposterBlock.registerCompostable(0.6f, ItemInit.TOMATO_SEEDS.get());
+        ComposterBlock.registerCompostable(0.6f, ItemInit.RICE_SEEDS.get());
         ComposterBlock.registerCompostable(0.8f, ItemInit.TOMATO.get());
         ComposterBlock.registerCompostable(0.7f, ItemInit.ONION.get());
     }
