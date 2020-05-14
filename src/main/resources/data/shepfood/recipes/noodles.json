@@ -3,15 +3,19 @@
     
     "pattern":
     [
-        "F F",
-        "F F",
-        "F F"
+        "FDF",
+        "FDF",
+        "FDF"
     ],
     
     "key":
     {
 
         "F":
+        {
+            "item": "shepfood:dough"
+        },
+        "D":
         {
             "item": "shepfood:flour"
         }

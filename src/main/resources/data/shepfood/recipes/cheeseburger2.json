@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "BBB",
+        "OSC",
+        "BBB"
+    ],
+
+    "key":
+    {
+        "B":
+        {
+            "item": "shepfood:burger_bun"
+        },
+        "C": {
+            "item": "shepfood:cheese"
+        },
+        "O":
+        {
+            "item": "shepfood:onion"
+        },
+        "S":
+        {
+            "item": "minecraft:cooked_beef"
+        }
+    },
+
+    "result":
+    {
+        "item": "shepfood:cheeseburger",
+        "count": 3
+    }
+}

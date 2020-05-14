@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "shepfood:cooked_pepperoni_pizza"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:pepperoni_pizza_slice",
+        "count": 6
+    }
+}

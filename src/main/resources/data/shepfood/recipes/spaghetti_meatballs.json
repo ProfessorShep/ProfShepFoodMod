@@ -1,0 +1,17 @@
+
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "shepfood:spaghetti"},
+        {"item": "shepfood:meatball"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:cheese",
+        "count": 1
+    }
+}

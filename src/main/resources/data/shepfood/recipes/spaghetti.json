@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "T",
+        "N",
+        "B"
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "shepfood:tomato_sauce_bottle"
+        },
+        "N":
+        {
+            "item": "shepfood:noodles"
+        },
+        "B": {
+            "item": "minecraft:bowl"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:spaghetti",
+        "count": 1
+    }
+}

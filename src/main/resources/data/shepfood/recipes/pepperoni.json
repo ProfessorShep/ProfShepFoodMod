@@ -10,11 +10,11 @@
     {
         "P":
         {
-            "item": "shepfood:porkchop"
+            "item": "minecraft:porkchop"
         },
         "S":
         {
-            "item": "shepfood:beef"
+            "item": "minecraft:beef"
         }
     },
     

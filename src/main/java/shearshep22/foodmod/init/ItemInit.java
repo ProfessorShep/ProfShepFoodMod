@@ -36,6 +36,8 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
 	public static final RegistryObject<Item> CHEESE_PIZZA_SLICE = ITEMS.register("cheese_pizza_slice",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
+	public static final RegistryObject<Item> PEPPERONI_PIZZA_SLICE = ITEMS.register("pepperoni_pizza_slice",
+			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
 	public static final RegistryObject<Item> DOUGH = ITEMS.register("dough",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance)));
 	public static final RegistryObject<Item> COOKED_CHICKEN_NUGGET = ITEMS.register("cooked_chicken_nugget",

@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.2'
+version = '0.5'
 group = 'shearshep22.foodmod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'foodmod'
 
@@ -117,7 +117,7 @@ jar {
         attributes([
             "Specification-Title": "foodmod",
             "Specification-Vendor": "ShearShep22",
-            "Specification-Version": "0.2", // We are version 1 of ourselves
+            "Specification-Version": "0.5", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"ShearShep22",

@@ -44,7 +44,7 @@ public class ShepFood
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         final IForgeRegistry<Item> registry = event.getRegistry();
 
-        BlockInit.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof OnionPlant)).filter(block -> !(block.get() instanceof TomatoPlant)).filter(block -> !(block.get() instanceof PizzaBlock)).filter(block -> !(block.get() instanceof OnionPlant)).filter(block -> !(block.get() instanceof RicePlant))
+        BlockInit.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof OnionPlant)).filter(block -> !(block.get() instanceof TomatoPlant)).filter(block -> !(block.get() instanceof PizzaBlock)).filter(block -> !(block.get() instanceof RicePlant))
                 .map(RegistryObject::get).forEach(block -> {
             final Item.Properties properties = new Item.Properties().group(shepfoodTab.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
