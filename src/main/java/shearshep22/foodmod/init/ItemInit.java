@@ -33,7 +33,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> COOKED_EGG = ITEMS.register("cooked_egg",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
 	public static final RegistryObject<Item> HOTDOG = ITEMS.register("hotdog",
-			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(3).saturation(2f).build())));
+			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(5).saturation(2f).build())));
 	public static final RegistryObject<Item> YEAST = ITEMS.register("yeast",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance)));
 	public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate",
