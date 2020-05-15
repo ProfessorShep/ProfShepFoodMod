@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DDD",
+        "PSP",
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "P":
+        {
+            "item": "minecraft:porkchop"
+        },
+        "S":
+        {
+            "item": "minecraft:beef"
+        },
+        "D":
+        {
+            "item":"shepfood:dough"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:hotdog",
+        "count": 3
+    }
+}

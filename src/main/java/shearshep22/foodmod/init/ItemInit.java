@@ -30,6 +30,10 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance)));
 	public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
+	public static final RegistryObject<Item> COOKED_EGG = ITEMS.register("cooked_egg",
+			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
+	public static final RegistryObject<Item> HOTDOG = ITEMS.register("hotdog",
+			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(3).saturation(2f).build())));
 	public static final RegistryObject<Item> YEAST = ITEMS.register("yeast",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance)));
 	public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate",
@@ -38,10 +42,12 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
 	public static final RegistryObject<Item> PEPPERONI_PIZZA_SLICE = ITEMS.register("pepperoni_pizza_slice",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
+	public static final RegistryObject<Item> MUFFIN = ITEMS.register("muffin",
+			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(3).saturation(2f).build())));
 	public static final RegistryObject<Item> DOUGH = ITEMS.register("dough",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance)));
 	public static final RegistryObject<Item> COOKED_CHICKEN_NUGGET = ITEMS.register("cooked_chicken_nugget",
-			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().meat().hunger(1).fastToEat().saturation(2f).build())));
+			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(1).fastToEat().saturation(2f).build())));
 	public static final RegistryObject<Item> RAW_CHICKEN_NUGGET = ITEMS.register("raw_chicken_nugget",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().meat().hunger(1).saturation(2f).fastToEat().effect(new EffectInstance(Effects.HUNGER, 600), 0.3f).build())));
 	public static final RegistryObject<Item> TOMATO_SAUCE_BOTTLE = ITEMS.register("tomato_sauce_bottle",

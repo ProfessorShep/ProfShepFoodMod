@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "DDD",
+        "DCD",
+        " D "
+    ],
+
+    "key":
+    {
+        "D":
+        {
+            "item": "shepfood:dough"
+        },
+        "C": {
+            "item": "shepfood:chocolate"
+        }
+    },
+
+    "result":
+    {
+        "item": "shepfood:muffin",
+        "count": 3
+    }
+}
