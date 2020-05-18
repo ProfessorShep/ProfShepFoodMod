@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "I",
+        "S"
+    ],
+
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+
+    "result":
+    {
+        "item": "shepfood:knife",
+        "count": 1
+    }
+}
