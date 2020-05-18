@@ -9,13 +9,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "shepfood:cheese_pizza",
+              "block": "minecraft:cake",
               "properties": {
                 "bites": "0"
               }
             }
           ],
-          "name": "shepfood:pizza_slice"
+          "name": "shepfood:cake_slice"
 
         }
 
@@ -29,13 +29,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "shepfood:cheese_pizza",
+              "block": "minecraft:cake",
               "properties": {
                 "bites": "1"
               }
             }
           ],
-          "name": "shepfood:pizza_slice"
+          "name": "shepfood:cake_slice"
 
         }
 
@@ -49,13 +49,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "shepfood:cheese_pizza",
+              "block": "minecraft:cake",
               "properties": {
                 "bites": "2"
               }
             }
           ],
-          "name": "shepfood:pizza_slice"
+          "name": "shepfood:cake_slice"
 
         }
 
@@ -69,13 +69,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "shepfood:cheese_pizza",
+              "block": "minecraft:cake",
               "properties": {
                 "bites": "3"
               }
             }
           ],
-          "name": "shepfood:pizza_slice"
+          "name": "shepfood:cake_slice"
 
         }
 
@@ -89,13 +89,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "shepfood:cheese_pizza",
+              "block": "minecraft:cake",
               "properties": {
                 "bites": "4"
               }
             }
           ],
-          "name": "shepfood:pizza_slice"
+          "name": "shepfood:cake_slice"
 
         }
 
@@ -109,13 +109,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "shepfood:cheese_pizza",
+              "block": "minecraft:cake",
               "properties": {
                 "bites": "5"
               }
             }
           ],
-          "name": "shepfood:pizza_slice"
+          "name": "shepfood:cake_slice"
 
         }
 

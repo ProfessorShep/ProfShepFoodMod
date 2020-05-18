@@ -3,7 +3,8 @@
     
     "ingredients":
     [
-        {"item": "shepfood:cooked_cheese_pizza"}
+        {"item": "shepfood:cooked_cheese_pizza"},
+        {"item": "minecraft:knife"}
     ],
     
     

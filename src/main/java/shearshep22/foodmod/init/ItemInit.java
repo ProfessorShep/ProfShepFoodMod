@@ -1,6 +1,7 @@
 package shearshep22.foodmod.init;
 
 import shearshep22.foodmod.ShepFood;
+import shearshep22.foodmod.objects.items.KnifeItem;
 import shearshep22.foodmod.objects.items.TomatoSauceItem;
 import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
@@ -8,6 +9,7 @@ import net.minecraft.potion.Effects;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import shearshep22.foodmod.objects.itemtiers.itemTiers;
 
 public class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS,
@@ -36,11 +38,15 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(5).saturation(2f).build())));
 	public static final RegistryObject<Item> YEAST = ITEMS.register("yeast",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance)));
+	public static final RegistryObject<Item> KNIFE = ITEMS.register("knife",
+			() -> new KnifeItem(itemTiers.KNIFE, 1, -1f, new Item.Properties().group(ShepFood.shepfoodTab.instance)));
 	public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
 	public static final RegistryObject<Item> CHEESE_PIZZA_SLICE = ITEMS.register("cheese_pizza_slice",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
 	public static final RegistryObject<Item> PEPPERONI_PIZZA_SLICE = ITEMS.register("pepperoni_pizza_slice",
+			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
+	public static final RegistryObject<Item> CAKE_SLICE = ITEMS.register("cake_slice",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).saturation(2f).build())));
 	public static final RegistryObject<Item> MUFFIN = ITEMS.register("muffin",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(3).saturation(2f).build())));
@@ -80,4 +86,5 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(4).saturation(3f).build())));
 	public static final RegistryObject<Item> SUSHI = ITEMS.register("sushi",
 			() -> new Item(new Item.Properties().group(ShepFood.shepfoodTab.instance).food(new Food.Builder().hunger(2).fastToEat().saturation(2f).build())));
+
 }

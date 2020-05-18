@@ -3,7 +3,8 @@
 
     "ingredients":
     [
-        {"item": "minecraft:chicken"}
+        {"item": "minecraft:chicken"},
+        {"item": "minecraft:knife"}
     ],
     
     "result":

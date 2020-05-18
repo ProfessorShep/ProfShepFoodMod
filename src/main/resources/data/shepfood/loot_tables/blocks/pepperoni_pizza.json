@@ -6,8 +6,119 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "shepfood:pepperoni_pizza",
+              "properties": {
+                "bites": "0"
+              }
+            }
+          ],
           "name": "shepfood:pepperoni_pizza_slice"
+
         }
+
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "shepfood:pepperoni_pizza",
+              "properties": {
+                "bites": "1"
+              }
+            }
+          ],
+          "name": "shepfood:pepperoni_pizza_slice"
+
+        }
+
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "shepfood:pepperoni_pizza",
+              "properties": {
+                "bites": "2"
+              }
+            }
+          ],
+          "name": "shepfood:pepperoni_pizza_slice"
+
+        }
+
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "shepfood:pepperoni_pizza",
+              "properties": {
+                "bites": "3"
+              }
+            }
+          ],
+          "name": "shepfood:pepperoni_pizza_slice"
+
+        }
+
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "shepfood:pepperoni_pizza",
+              "properties": {
+                "bites": "4"
+              }
+            }
+          ],
+          "name": "shepfood:pepperoni_pizza_slice"
+
+        }
+
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "shepfood:pepperoni_pizza",
+              "properties": {
+                "bites": "5"
+              }
+            }
+          ],
+          "name": "shepfood:pepperoni_pizza_slice"
+
+        }
+
       ]
     }
   ]

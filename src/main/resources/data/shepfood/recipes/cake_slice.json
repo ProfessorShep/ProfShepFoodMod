@@ -3,15 +3,14 @@
     
     "ingredients":
     [
-        {"item": "shepfood:cooked_pepperoni_pizza"},
+        {"item": "minecraft:cake"},
         {"item": "shepfood:knife"}
-
     ],
     
     
     "result":
     {
-        "item": "shepfood:pepperoni_pizza_slice",
+        "item": "shepfood:cake_slice",
         "count": 6
     }
 }
