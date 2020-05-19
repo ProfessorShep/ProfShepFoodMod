@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "item": "shepfood:dough"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:pancake",
+        "count": 1
+    }
+}

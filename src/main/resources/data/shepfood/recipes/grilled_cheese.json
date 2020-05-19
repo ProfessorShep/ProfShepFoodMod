@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "BBB",
+        "CCC",
+        "BBB"
+    ],
+
+    "key":
+    {
+        "B":
+        {
+            "item": "shepfood:bread_slice"
+        },
+        "C": {
+            "item": "shepfood:cheese"
+        }
+    },
+
+    "result":
+    {
+        "item": "shepfood:grilled_cheese",
+        "count": 3
+    }
+}

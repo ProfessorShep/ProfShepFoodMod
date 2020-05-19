@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 
 public enum itemTiers implements IItemTier
 {
-    KNIFE(2, 250, 1.0F, 1.0F, 14,() -> { return Ingredient.fromItems(Items.IRON_INGOT); });
+    KNIFE(2, 250, 1.0F, 0.2F, 0,() -> { return Ingredient.fromItems(Items.IRON_INGOT); });
 
     private int harvestLevel;
     private int maxUses;

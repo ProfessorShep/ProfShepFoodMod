@@ -1,0 +1,17 @@
+
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "shepfood:waffle_cone"},
+        {"item": "shepfood:ice_cream"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:ice_cream_cone",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DSD"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "item": "shepfood:waffle"
+        },
+        "S":
+        {
+            "item": "minecraft:sugar"
+        }
+    },
+    
+    "result":
+    {
+        "item": "shepfood:waffle",
+        "count": 1
+    }
+}

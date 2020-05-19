@@ -1,0 +1,17 @@
+
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "minecraft:bread"},
+        {"item": "shepfood:knife"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:bread_slice",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {"item": "minecraft:milk_bucket"},
+        {"item": "shepfood:flour"},
+        {"item": "minecraft:sugar"},
+        {"item": "minecraft:bowl"}
+    ],
+    
+    
+    "result":
+    {
+        "item": "shepfood:cereal",
+        "count": 1
+    }
+}
